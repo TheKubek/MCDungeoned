@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.kubek.mcd.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "ItemTooltipMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

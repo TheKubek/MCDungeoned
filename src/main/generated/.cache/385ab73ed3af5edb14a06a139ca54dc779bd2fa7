@@ -1,0 +1,17 @@
+// 1.21.11	-999999999-01-01T00:00:00	MC Dungeoned/Minecraft Dungeoned Recipes
+dcec3e683cdf4b6f4737116fc9d6a3c810d688b9 data/mcd/advancement/recipes/tools/copper_scythe.json
+72f08c8e2e5cf64826e32ab0de0feae9e5f7a9dc data/mcd/advancement/recipes/tools/diamond_scythe.json
+f519294dfee51cfb3a75d2d972d4a4cd4b05a6f9 data/mcd/advancement/recipes/tools/frost_scythe.json
+1c115ec581896c93f4c0ca4ba9ed8a43efa76649 data/mcd/advancement/recipes/tools/golden_scythe.json
+46aef0033b08ae64b33cde114fc50ed1c90780fb data/mcd/advancement/recipes/tools/iron_scythe.json
+f2ee8f7440ae4a349ae07afa87aa944fa1e6cf98 data/mcd/advancement/recipes/tools/netherite_scythe_smithing.json
+0b377c8398da473b849cf930e8f36a34f17e8b3c data/mcd/advancement/recipes/tools/stone_scythe.json
+1a909cf07e7b2bfb5acba1ae707b3782f0124224 data/mcd/advancement/recipes/tools/wooden_scythe.json
+16bdde79491b6838a6ebd89fad97d760de3c09ec data/mcd/recipe/copper_scythe.json
+61b24badc2addcbe09686ec7c3620c716d74904d data/mcd/recipe/diamond_scythe.json
+77fd3e5b0468bdbc775ad36418ae8d38ee665404 data/mcd/recipe/frost_scythe.json
+e26b04bbff91422f180f9d3ed946e8dce3cb8c46 data/mcd/recipe/golden_scythe.json
+aec48db701d39a6e0740968e6b1fd439f2115aea data/mcd/recipe/iron_scythe.json
+c6d4584940d635fbd347ed361615f8e681347bf0 data/mcd/recipe/netherite_scythe_smithing.json
+ff8f8b28f9fac65150b491103a63b2e4d4588fcc data/mcd/recipe/stone_scythe.json
+a7f4e079f0c622e3a00a0dcb303c8b91097c43ad data/mcd/recipe/wooden_scythe.json

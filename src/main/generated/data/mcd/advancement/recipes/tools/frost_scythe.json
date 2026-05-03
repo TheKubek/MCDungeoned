@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite_scythe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mcd:netherite_scythe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mcd:frost_scythe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_netherite_scythe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mcd:frost_scythe"
+    ]
+  }
+}

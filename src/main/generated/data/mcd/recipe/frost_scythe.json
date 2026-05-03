@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "mcd:netherite_scythe",
+    "S": "minecraft:blue_ice"
+  },
+  "pattern": [
+    " S ",
+    "S#S",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mcd:frost_scythe"
+  }
+}

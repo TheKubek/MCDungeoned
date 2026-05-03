@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "mcd",
+	"version": "${version}",
+	"name": "MC Dungeoned",
+	"description": "This mod focuses on adding stuff from Minecraft Dungons to vanilla Minecraft",
+	"authors": [
+		"TheKubek"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/"
+	},
+	"license": "ARR",
+	"icon": "assets/mcd/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kubek.mcd.MCDungeoned"
+		],
+		"fabric-datagen": [
+			"net.kubek.mcd.MCDungeonedDataGenerator"
+		],
+        "client": [
+          "net.kubek.mcd.MCDungeonedClient",
+          "net.kubek.mcd.HudRenderingEntrypoint"
+        ]
+    },
+	"mixins": [
+		"mcd.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

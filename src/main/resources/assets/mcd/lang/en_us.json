@@ -1,0 +1,16 @@
+{
+  "item.mcd.wooden_scythe": "Wooden Scythe",
+  "item.mcd.stone_scythe": "Stone Scythe",
+  "item.mcd.copper_scythe": "Copper Scythe",
+  "item.mcd.iron_scythe": "Iron Scythe",
+  "item.mcd.golden_scythe": "Golden Scythe",
+  "item.mcd.diamond_scythe": "Diamond Scythe",
+  "item.mcd.netherite_scythe": "Netherite Scythe",
+  "item.mcd.frost_scythe": "Frost Scythe",
+
+
+  "tooltip.mcd.soul_collector": "+1 §1Soul Collecting",
+  "tooltip.mcd.strong_soul_collector": "+5 §5Soul Collecting",
+
+  "tooltip.mcd.frost_scythe": "Allows you to slow down enemies on hit for cost of 5 souls"
+}
