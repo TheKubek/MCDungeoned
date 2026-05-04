@@ -29,14 +29,14 @@ public class PlayerKilledEntity implements ServerLivingEntityEvents.AfterDeath{
                 }
             }
             else if(damageSource.getWeaponItem().is(ModTags.Items.STRONG_SOULS_COLLECTORS  /*|| damageSource.getWeaponItem().getEnchantments*/)){
-                SoulsHandler.addSouls((ServerPlayer) player, 5);
+                SoulsHandler.addSouls((ServerPlayer) player, 2);
                 if(!player.level().isClientSide()){
                     ((ServerLevel) player.level()).sendParticles(
                             ParticleTypes.SCULK_SOUL
                             ,livingEntity.getX()
                             ,livingEntity.getY()+1
                             ,livingEntity.getZ()
-                            ,5
+                            ,2
                             ,0,1,0
                             ,0.001);
                 }

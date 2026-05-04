@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kubek.mcd.MCDungeoned;
 import net.kubek.mcd.item.tool.FrostScytheItem;
 import net.kubek.mcd.item.tool.ScytheItem;
+import net.kubek.mcd.item.weapon.SoulKnifeItem;
 import net.minecraft.core.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -25,6 +26,8 @@ public class ModItems {
 
     public static final Item FROST_SCYTHE = registerItem("frost_scythe",properties -> new FrostScytheItem(ToolMaterial.NETHERITE,1f,-3f,properties.fireResistant().rarity(Rarity.EPIC)));
 
+    public static final Item SOUL_KNIFE = registerItem("soul_knife",properties -> new SoulKnifeItem(properties.axe(ToolMaterial.DIAMOND,4f,-2f)));
+
 //    public static final Item FISTS = registerItem("fists",properties -> new Item(properties.component(DataComponents.ATTACK_RANGE, new AttackRange(0,2,0,3,1,1)).equippableUnswappable(EquipmentSlot.OFFHAND).sword(ToolMaterial.IRON,1f,-1f)));
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function){
@@ -42,6 +45,9 @@ public class ModItems {
             entries.addAfter(Items.DIAMOND_HOE,DIAMOND_SCYTHE);
             entries.addAfter(Items.NETHERITE_HOE,NETHERITE_SCYTHE);
             entries.addAfter(NETHERITE_SCYTHE,FROST_SCYTHE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(e->{
+            e.addAfter(Items.TRIDENT,SOUL_KNIFE);
         });
 
     }

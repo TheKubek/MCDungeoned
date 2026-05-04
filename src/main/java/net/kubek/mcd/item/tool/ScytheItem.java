@@ -41,7 +41,6 @@ public class ScytheItem extends net.minecraft.world.item.HoeItem {
                     );
                     world.destroyBlock(blockPos, true, player);
                     world.setBlock(blockPos, block.defaultBlockState(),0);
-                    SoulsHandler.removeSouls((ServerPlayer) player,1);
                 }
             }
             return InteractionResult.SUCCESS;

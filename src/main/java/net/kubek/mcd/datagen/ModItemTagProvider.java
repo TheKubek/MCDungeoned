@@ -23,7 +23,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.NETHERITE_AXE)
                 .add(ModItems.GOLDEN_SCYTHE)
                 .add(ModItems.DIAMOND_SCYTHE)
-                .add(ModItems.NETHERITE_SCYTHE);
+                .add(ModItems.NETHERITE_SCYTHE)
+                .add(ModItems.SOUL_KNIFE);
         valueLookupBuilder(ModTags.Items.STRONG_SOULS_COLLECTORS)
                 .add(ModItems.FROST_SCYTHE);
 

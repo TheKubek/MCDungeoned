@@ -3,7 +3,8 @@
 	"package": "net.kubek.mcd.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-      "ItemTooltipMixin"
+      "ItemTooltipMixin",
+      "AttackRendererAnimationsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
