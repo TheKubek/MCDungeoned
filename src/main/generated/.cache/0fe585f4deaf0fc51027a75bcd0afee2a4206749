@@ -1,3 +1,9 @@
 // 1.21.11	-999999999-01-01T00:00:00	MC Dungeoned/Tags for minecraft:item
+cd0f5964bcddf457b707b26ca1599aeb260fbfde data/mcd/tags/item/heavy_one_hand.json
+35469fb802ed854b39c94aa049c649d8a6b5ea87 data/mcd/tags/item/scythes.json
 17263c892b85d7c8fab4314d6c5d0801df050a65 data/mcd/tags/item/souls_collectors.json
 f4c29ebccbf899ef95a8826e91bae480fee860d9 data/mcd/tags/item/strong_souls_collectors.json
+608c01d92e4e61c36b01af02046df1f597cd930f data/mcd/tags/item/two_handed.json
+cd0f5964bcddf457b707b26ca1599aeb260fbfde data/minecraft/tags/item/axes.json
+1a1b4aa220e796453229cbdcf0f433092a3a4149 data/minecraft/tags/item/hoes.json
+608c01d92e4e61c36b01af02046df1f597cd930f data/minecraft/tags/item/swords.json

@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kubek.mcd.MCDungeoned;
 import net.kubek.mcd.item.tool.FrostScytheItem;
 import net.kubek.mcd.item.tool.ScytheItem;
-import net.kubek.mcd.item.weapon.SoulKnifeItem;
 import net.minecraft.core.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -26,7 +25,9 @@ public class ModItems {
 
     public static final Item FROST_SCYTHE = registerItem("frost_scythe",properties -> new FrostScytheItem(ToolMaterial.NETHERITE,1f,-3f,properties.fireResistant().rarity(Rarity.EPIC)));
 
-    public static final Item SOUL_KNIFE = registerItem("soul_knife",properties -> new SoulKnifeItem(properties.axe(ToolMaterial.DIAMOND,4f,-2f)));
+    public static final Item SOUL_KNIFE = registerItem("soul_knife",properties -> new Item(properties.sword(ToolMaterial.DIAMOND,5f,-3f)));
+    public static final Item HAMMER = registerItem("hammer",properties -> new Item(properties.pickaxe(ToolMaterial.DIAMOND,6.5f,-3.4f)));
+    public static final Item STORMLANDER = registerItem("stormlander",properties -> new Item(properties.pickaxe(ToolMaterial.DIAMOND,8.5f,-3.6f).fireResistant().rarity(Rarity.EPIC)));
 
 //    public static final Item FISTS = registerItem("fists",properties -> new Item(properties.component(DataComponents.ATTACK_RANGE, new AttackRange(0,2,0,3,1,1)).equippableUnswappable(EquipmentSlot.OFFHAND).sword(ToolMaterial.IRON,1f,-1f)));
 
@@ -48,6 +49,8 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(e->{
             e.addAfter(Items.TRIDENT,SOUL_KNIFE);
+            e.addAfter(SOUL_KNIFE,HAMMER);
+            e.addAfter(HAMMER,STORMLANDER);
         });
 
     }

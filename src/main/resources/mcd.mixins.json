@@ -5,6 +5,7 @@
 	"mixins": [
       "ItemTooltipMixin",
       "AttackRendererAnimationsMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1
